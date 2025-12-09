@@ -11,11 +11,14 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'https://Laiba772.github.io',       // GitHub username
+  baseUrl: '/Physical-Ai-Humanoid-Textbook/',
 
-  organizationName: 'your-org',
-  projectName: 'humanoid-textbook',
+  projectName: 'Physical-Ai-Humanoid-Textbook',
+  organizationName: 'Laiba772',
+ 
+  trailingSlash: false,
+
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
