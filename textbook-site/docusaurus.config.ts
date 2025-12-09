@@ -11,18 +11,16 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://Laiba772.github.io',       // GitHub username
+  url: 'https://Laiba772.github.io',
   baseUrl: '/Physical-Ai-Humanoid-Textbook/',
 
   projectName: 'Physical-Ai-Humanoid-Textbook',
   organizationName: 'Laiba772',
- 
-  trailingSlash: false,
 
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
 
   i18n: {
     defaultLocale: 'en',
@@ -45,7 +43,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/your-org/humanoid-textbook/tree/main/',
+            'https://github.com/Laiba772/Physical-Ai-Humanoid-Textbook/edit/main/textbook-site/',
         },
         blog: false,
         theme: {
@@ -64,133 +62,52 @@ const config: Config = {
         src: 'https://tse1.mm.bing.net/th/id/OIP.yXjnRTsZq8qVU9F48yCjSwHaHM?rs=1&pid=ImgDetMain&o=7&rm=3',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Textbook',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/Laiba772/Physical-Ai-Humanoid-Textbook',
-          label: 'GitHub',
-          position: 'right',
-        },
+        { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'Textbook' },
+        { type: 'localeDropdown', position: 'right' },
+        { href: 'https://github.com/Laiba772/Physical-Ai-Humanoid-Textbook', label: 'GitHub', position: 'right' },
       ],
     },
 
     footer: {
-  style: 'dark',
-  links: [
-    {
-      title: '🌐 Socials',
-      items: [
+      style: 'dark',
+      links: [
         {
-          label: '🐙 GitHub',
-          href: 'https://github.com/Laiba772',
-          className:
-            'transition-all hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-500',
+          title: '🌐 Socials',
+          items: [
+            { label: '🐙 GitHub', href: 'https://github.com/Laiba772', className: 'transition-all hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-500' },
+            { label: '💼 LinkedIn', href: 'https://www.linkedin.com/in/laiba-naz-643b192b5/', className: 'transition-all hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-400 hover:to-cyan-400' },
+            { label: '🐦 Twitter', href: 'https://x.com/RajLaiba', className: 'transition-all hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-sky-400 hover:to-blue-500' },
+            { label: '📸 Instagram', href: 'https://www.instagram.com/laibanaz012/', className: 'transition-all hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-pink-400 hover:to-yellow-400' },
+            { label: '▶️ YouTube', href: 'https://www.youtube.com/@motivate-l9v', className: 'transition-all hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-red-400 hover:to-orange-500' },
+          ],
         },
         {
-          label: '💼 LinkedIn',
-          href: 'https://www.linkedin.com/in/laiba-naz-643b192b5/',
-          className:
-            'transition-all hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-400 hover:to-cyan-400',
+          title: '📘 About This Project',
+          items: [
+            { label: 'What is Physical AI?', to: 'docs/introduction/intro', className: 'hover:text-purple-300 transition-colors' },
+            { label: 'Why Humanoid Robotics?', to: 'docs/introduction/why-humanoids', className: 'hover:text-pink-300 transition-colors' },
+            { label: 'For Students & Researchers', to: 'docs/introduction/for-students', className: 'hover:text-blue-300 transition-colors' },
+          ],
         },
         {
-          label: '🐦 Twitter',
-          href: 'https://x.com/RajLaiba',
-          className:
-            'transition-all hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-sky-400 hover:to-blue-500',
+          title: '⚡ Quick Links',
+          items: [
+            { label: '🚀 Start Learning', to: 'docs/introduction/intro', className: 'hover:underline hover:text-blue-400 transition-colors' },
+            { label: '📂 GitHub Repo', href: 'https://github.com/Laiba772/Physical-Ai-Humanoid-Textbook', className: 'hover:underline hover:text-green-300 transition-colors' },
+            { label: '📨 Contact / Support', href: 'mailto:laiba.robostudy@gmail.com', className: 'hover:underline hover:text-yellow-300 transition-colors' },
+          ],
         },
         {
-          label: '📸 Instagram',
-          href: 'https://www.instagram.com/laibanaz012/',
-          className:
-            'transition-all hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-pink-400 hover:to-yellow-400',
-        },
-        {
-          label: '▶️ YouTube',
-          href: 'https://www.youtube.com/@motivate-l9v',
-          className:
-            'transition-all hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-red-400 hover:to-orange-500',
-        },
-      ],
-    },
-
-    // ⭐ NEW UNIQUE SECTION - ABOUT
-    {
-      title: '📘 About This Project',
-      items: [
-        {
-          label: 'What is Physical AI?',
-          to: 'docs/introduction/intro',
-          className: 'hover:text-purple-300 transition-colors',
-        },
-        {
-          label: 'Why Humanoid Robotics?',
-          to: 'docs/introduction/why-humanoids',
-          className: 'hover:text-pink-300 transition-colors',
-        },
-        {
-          label: 'For Students & Researchers',
-          to: 'docs/introduction/for-students',
-          className: 'hover:text-blue-300 transition-colors',
+          title: '🛠️ Resources',
+          items: [
+            { label: '🤖 Robotics Roadmap', href: 'https://roadmap.sh/ai', className: 'hover:text-teal-300 transition-colors' },
+            { label: '🎓 ROS 2 Learning Path', href: 'https://docs.ros.org/', className: 'hover:text-orange-300 transition-colors' },
+            { label: '🧠 AI Learning Path', href: 'https://www.deeplearning.ai/', className: 'hover:text-purple-300 transition-colors' },
+          ],
         },
       ],
+      copyright: `© ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook. Built with ❤️ by Laiba Naz.`,
     },
-
-    // ⭐ NEW SECTION - QUICK LINKS
-    {
-      title: '⚡ Quick Links',
-      items: [
-        {
-          label: '🚀 Start Learning',
-          to: 'docs/introduction/intro',
-          className: 'hover:underline hover:text-blue-400 transition-colors',
-        },
-        {
-          label: '📂 GitHub Repo',
-          href: 'https://github.com/your-org/humanoid-textbook',
-          className: 'hover:underline hover:text-green-300 transition-colors',
-        },
-        {
-          label: '📨 Contact / Support',
-          href: 'mailto:laiba.robostudy@gmail.com',
-          className: 'hover:underline hover:text-yellow-300 transition-colors',
-        },
-      ],
-    },
-
-    // ⭐ NEW SECTION - RESOURCES
-    {
-      title: '🛠️ Resources',
-      items: [
-        {
-          label: '🤖 Robotics Roadmap',
-          href: 'https://roadmap.sh/ai',
-          className: 'hover:text-teal-300 transition-colors',
-        },
-        {
-          label: '🎓 ROS 2 Learning Path',
-          href: 'https://docs.ros.org/',
-          className: 'hover:text-orange-300 transition-colors',
-        },
-        {
-          label: '🧠 AI Learning Path',
-          href: 'https://www.deeplearning.ai/',
-          className: 'hover:text-purple-300 transition-colors',
-        },
-      ],
-    },
-  ],
-
-  copyright: `© ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook. Built with ❤️ and 💡 by Laiba Naz — Empowering the Next Generation of Robotics Innovators.`,
-},
-
 
     prism: {
       theme: prismThemes.github,
