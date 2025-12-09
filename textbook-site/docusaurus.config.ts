@@ -12,7 +12,7 @@ const config: Config = {
   },
 
   url: 'https://Laiba772.github.io',
-  baseUrl: '/Physical-Ai-Humanoid-Textbook/',
+  baseUrl: '/',
 
   projectName: 'Physical-Ai-Humanoid-Textbook',
   organizationName: 'Laiba772',
